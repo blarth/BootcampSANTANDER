@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador = 0
+		cadeia agenda[][] = {{"Joao", "Sao Paulo", "(11) 9999-5241"}, {"Maria", "Ribeirao Preto", "(16) 9999-8596"}, {"Ana", "Manaus", "(92) 9999-8574"}}
+	
+		faca{
+			escreva("Nome :" + agenda[contador][0] + "\n"  + "Cidade :" + agenda[contador][1] + "\n" + "Numero do cel :" + agenda[contador][2] + "\n" + "Proximo Contato" + "\n")
+			contador++	
+		}enquanto(contador<=2)
+	}
+	
+}
